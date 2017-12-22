@@ -1,4 +1,6 @@
 language: c
+install:
+  - libsdl2-dev install
 script: make
 compiler:
   - clang
