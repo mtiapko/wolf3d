@@ -2,6 +2,7 @@ addons:
   apt:
     packages:
     - libsdl2-dev
+    - libglew-dev
 language: c
 script: make
 compiler:
