@@ -1,6 +1,6 @@
 #include "wolf3d.h"
 
-int ain()
+int main()
 {
 	if (wolf3d_create("wolf3d", 800, 600))
 		return FUNC_ERROR;
